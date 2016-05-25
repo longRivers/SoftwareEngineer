@@ -6,6 +6,7 @@ public class box {
 	public static void main(String args[]){
 		System.out.print("请输入数字M：");
 		Scanner input = new Scanner(System.in);
+		ArrayList a = new ArrayList();
 		int m = input.nextInt();
 		float r1 , r2;
 		r1 = 1;
